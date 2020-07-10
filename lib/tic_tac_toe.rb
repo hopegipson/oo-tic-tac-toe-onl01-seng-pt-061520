@@ -83,5 +83,6 @@ WIN_COMBINATIONS = [
       !won? && full?
      end
      
-     
+     def over?
+       
 end
