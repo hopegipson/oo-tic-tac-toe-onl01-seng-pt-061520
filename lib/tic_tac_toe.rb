@@ -89,7 +89,7 @@ WIN_COMBINATIONS = [
      
     def winner
    WIN_COMBINATIONS.detect do |win_combo|
-     if (@board[win_combo[0]]) == "X")
+     if (@board[win_combo[0]]) == "X"
        return "X"
      elsif (@board[win_combo[0]]) == "O"
        return "O"
