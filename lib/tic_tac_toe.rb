@@ -84,5 +84,6 @@ WIN_COMBINATIONS = [
      end
      
      def over?
-       
+       won? || draw?
+     end
 end
