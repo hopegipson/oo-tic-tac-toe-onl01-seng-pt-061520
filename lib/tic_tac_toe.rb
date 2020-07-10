@@ -66,11 +66,11 @@ WIN_COMBINATIONS = [
   def won?
     WIN_COMBINATIONS.detect do |combo|
       if   (@board[combo[0]]) == "X" && (@board[combo[1]]) == "X" && (@board[combo[2]]) == "X"
-        return combo
+         combo
       elsif (@board[combo[0]]) == "O" && (@board[combo[1]]) == "O" && (@board[combo[2]]) == "O"
-        return combo
+         combo
       else
-        return false
+         false
        end
       end
      end
