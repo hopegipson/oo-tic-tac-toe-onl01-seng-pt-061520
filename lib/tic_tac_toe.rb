@@ -99,7 +99,10 @@ WIN_COMBINATIONS = [
     end
   end
   
-  def player
+  def play
+    
+    
+  end
   
 
 end
