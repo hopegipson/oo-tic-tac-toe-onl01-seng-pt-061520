@@ -78,5 +78,8 @@ WIN_COMBINATIONS = [
     def full?
       !@board.any?{|x| x == " "}
     end
+    
+    def draw?
+      !won? && full?
      
 end
